@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-style: oblique;
+  background-image: url('https://media.architecturaldigest.com/photos/5f51119f906066dcc5107d97/master/pass/Imperial%20city.jpg');
+  background-repeat: no-repeat;
+  width: 100%; background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  line-height: 1.6;
+ 
+}
+.title{
+  font-size:25px;
+  color:blue;
+}
+.container {
+  
+  margin: 0;  
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  scroll-snap-align: center;
+}
+#canvas{
+  border: solid 3px red;  
+  width: 100%;
+  object-fit: contain;
+} 
+
+
